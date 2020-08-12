@@ -18,14 +18,19 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 **6T Memory cell**
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/6TMemCell.png)
+
 **Sense Amplifier**
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
+
 **Write Driver**
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/WriteDriver.png)
+
 **Tri-State Buffer**
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/Trigate.png)
+
 **Pre-Charge Circuit**
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/PreCharge.png)
+
 
 Pre Layout Input/Output Waveforms Of Indivdual Custom Cells
 6T Memory cell

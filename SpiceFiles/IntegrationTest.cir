@@ -1,0 +1,61 @@
+.include osu018p.lib
+.include osu018n.lib
+m3 vdd q qbar vdd pfet W=0.15u L=0.18u M=1
+m6 q qbar vdd vdd pfet W=0.15u L=0.18u M=1
+m2 qbar q gnd gnd nfet W=0.72u L=0.18u M=1
+m7 gnd qbar q gnd nfet W=0.72u L=0.18u M=1
+m8 blbar wl qbar gnd nfet W=0.36u L=0.18u M=1
+m1 q wl bl gnd nfet W=0.36u L=0.18u M=1
+*m5 vdd bl blbar vdd pfet W=0.9u L=0.18u M=1
+*m4 blbar bl gnd gnd nfet W=0.36u L=0.18u M=1 
+m11 bl pclk net-_m1-pad3_ net-_m1-pad3_ pfet W=0.9u L=0.18u M=1
+m13  net-_m1-pad3_ pclk blbar net-_m1-pad3_ pfet W=0.9u L=0.18u M=1
+m12  blbar pclk bl net-_m1-pad3_ pfet W=0.9u L=0.18u M=1
+m23 net-_m3-pad1_ data databar net-_m3-pad1_ pfet W=0.9u L=0.18u M=1
+m21 databar data gnd gnd nfet W=0.36u L=0.18u M=1 
+m24  net-_m4-pad1_ en enbar net-_m4-pad1_ pfet W=0.9u L=0.18u M=1
+m22  enbar en gnd gnd nfet W=0.36u L=0.18u M=1 
+m27  net-_m7-pad1_ enbar net-_m7-pad3_ net-_m7-pad1_ pfet W=0.9u L=0.18u M=1
+m28  net-_m7-pad3_ databar bl net-_m7-pad1_ pfet W=0.9u L=0.18u M=1
+m211  net-_m11-pad1_ enbar net-_m11-pad3_ net-_m11-pad1_ pfet W=0.9u L=0.18u M=1
+m212  net-_m11-pad3_ data blbar net-_m11-pad1_ pfet W=0.9u L=0.18u M=1
+m25  bl databar net-_m5-pad3_ gnd nfet W=0.36u L=0.18u M=1 
+m29  blbar data net-_m10-pad1_ gnd nfet W=0.36u L=0.18u M=1 
+m26  net-_m5-pad3_ en gnd gnd nfet W=0.36u L=0.18u M=1 
+m210  net-_m10-pad1_ en gnd gnd nfet W=0.36u L=0.18u M=1 
+m31 net-_m1-pad1_ se bl vdd1 pfet W=0.9u L=0.18u M=1
+m37 blbar se d vdd1 pfet W=0.9u L=0.18u M=1
+m33 vdd1 net-_m1-pad1_ d vdd1 pfet W=0.7u L=0.18u M=1
+m35 net-_m1-pad1_ d vdd1 vdd1 pfet W=0.7u L=0.18u M=1
+m32 d net-_m1-pad1_ net-_m2-pad3_ gnd nfet W=0.9u L=0.18u M=1
+m36 net-_m2-pad3_ d net-_m1-pad1_ gnd nfet W=0.9u L=0.18u M=1
+m34 net-_m2-pad3_ se gnd gnd nfet W=0.9u L=0.18u M=1
+v3 vdd gnd  dc 1.8V
+v2 wl gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 100ns)
+v11 net-_m1-pad3_ gnd  dc 1.8V
+v12  pclk gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 100ns)
+v24 net-_m4-pad1_ gnd  dc 1.8V
+v23 net-_m3-pad1_ gnd  dc 1.8V
+v21  data gnd pulse(1.8V 1.8V 0ns 1ns 1ns 50ns 500ns)
+v22  en gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 500ns)
+v25 net-_m7-pad1_ gnd  dc 1.8V
+v33 vdd1 gnd  dc 1.8V
+v31 se gnd pulse(0V 1.8V 50ns 1ns 1ns 50ns 100ns)
+.tran 10e-12 500e-09 1e-09
+
+
+
+.control
+run
+plot wl
+plot pclk
+plot data
+plot en
+plot se
+plot bl
+plot blbar
+plot q
+plot qbar
+plot d
+.endc
+.end

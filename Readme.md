@@ -69,7 +69,7 @@ The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63**
 
 ## Sense Amplifier
 
-For Reference Circuit Diagram please [click here]()
+For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#sense-amplifier)
 
 For Pre Layout Simulation please [click here]()
 
@@ -87,7 +87,7 @@ For Pre Layout Simulation please [click here]()
 
 ## Write Driver
 
-For Reference Circuit Diagram please [click here]()
+For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#write-driver)
 
 For Pre Layout Simulation please [click here]()
 
@@ -110,7 +110,7 @@ For Pre Layout Simulation please [click here]()
 
 ## Tri-State Buffer
 
-For Reference Circuit Diagram please [click here]()
+For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#tri-state-buffer)
 
 For Pre Layout Simulation please [click here]()
 
@@ -128,7 +128,7 @@ For Pre Layout Simulation please [click here]()
 
 ## Pre-Charge Circuit
 
-For Reference Circuit Diagram please [click here]()
+For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#pre-charge-circuit)
 
 For Pre Layout Simulation please [click here]()
 
@@ -148,7 +148,7 @@ For Pre Layout Simulation please [click here]()
 
 # Pre Layout Input/Output Waveforms Of Integrated Circuit
 
-For Reference Circuit Diagram please [click here]()
+For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-integrated-circuit)
 
 For Pre Layout Simulation please [click here]()
 
@@ -196,18 +196,70 @@ D Out Sense Amplifier
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/od.png)
 
-## Contributors
+# Installing And Simulating On NgSpice
+
+## A. Installing NgSpice
+
+1. Open your Terminal  
+
+2. Type the following to install NgSpice
+
+`sudo apt-get install ngspice`
+
+## B. Go To Pre-Layout Simulations Directory
+
+1. First dowload GitHub packages
+
+`sudo apt install -y git`
+
+2. Clone GitHub Repository to Home Directory
+
+`git clone https://github.com/ReuelReuben/SRAM.git`
+
+3. Change Directory to SpiceFiles
+
+`cd SRAM/SpiceFiles/`
+
+## Pre-Layout Simulations
+
+After Doing Steps [A]() and [B]() directly Copy Paste below Commands for Pre-Layout simulations
+
+## 6T Memory cell
+
+`ngspice 6TMemCell.cir.out`
+
+## Sense Amplifier
+
+`ngspice SenseAmplifier.cir.out`
+
+## Write Driver
+
+`ngspice WriteDriver.cir.out`
+
+## Tri-State Buffer
+
+`ngspice Trigate.cir.out`
+
+## Pre-Charge Circuit
+
+`ngspice PrechargeCell.cir.out`
+
+## Integrated Circuit
+
+`ngspice IntegrationTest.cir`
+
+# Contributors
 
 - Reuel Reuben
 - Kunal Ghosh
 - Philipp Gühring
 
-## Acknowlegedgements
+# Acknowlegedgements
 
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
 - Philipp Gühring, Software Architect, LibreSilicon Assocation
 
-## Contact Information
+# Contact Information
 
 - Reuel Reuben, Undergraduate Student, BVPCOE reuel992000@gmail.com
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com

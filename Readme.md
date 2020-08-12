@@ -161,6 +161,6 @@ For Pre Layout Simulation please [click here]()
 
 ## Contact Information
 
-Reuel Reuben, Undergraduate Student, BVPCOE reuel992000@gmail.com
-Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
-Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at
+- Reuel Reuben, Undergraduate Student, BVPCOE reuel992000@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+- Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at

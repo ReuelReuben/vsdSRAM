@@ -41,7 +41,7 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 ## 6T Memory cell
 
-For Reference Circuit Diagram please [click here]()
+For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#6t-memory-cell)
 
 For Pre Layout Simulation please [click here]()
 
@@ -147,6 +147,14 @@ For Pre Layout Simulation please [click here]()
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/IntegratedCircuit.png)
 
 ## Pre Layout Input/Output Waveforms Of Integrated Circuit
+
+For Reference Circuit Diagram please [click here]()
+
+For Pre Layout Simulation please [click here]()
+
+**Input Waveforms**
+
+**Output Waveforms**
 
 ## Contributors
 

@@ -142,11 +142,11 @@ For Pre Layout Simulation please [click here]()
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/PreChargeCell/oblbar.png)
 
-## Circuit Diagram Of Integrated Circuit
+# Circuit Diagram Of Integrated Circuit
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/IntegratedCircuit.png)
 
-## Pre Layout Input/Output Waveforms Of Integrated Circuit
+# Pre Layout Input/Output Waveforms Of Integrated Circuit
 
 For Reference Circuit Diagram please [click here]()
 
@@ -154,7 +154,37 @@ For Pre Layout Simulation please [click here]()
 
 **Input Waveforms**
 
+Wordline in 6T Memory Cell
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/wl.png)
+
+Pre-Charge Enable
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/pclk.png)
+
+Write Driver Data In
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/data.png)
+
+Write Driver Enable
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/en.png)
+
+Sense Amplifier Enable
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/se.png)
+
 **Output Waveforms**
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/obl.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/oblbar.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/oq.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/oqbar.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/od.png)
 
 ## Contributors
 

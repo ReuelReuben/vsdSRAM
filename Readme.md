@@ -13,7 +13,7 @@
 - [Contact Information](https://github.com/ReuelReuben/SRAM#contact-information)
 
 
-## SRAM Design
+# SRAM Design
 This Project mainly focuses on the design of 4kB SRAM memory using opensource memory compiler **OpenRAM**. For the design of custom memory array, memory compiler takes in SPICE netlists, Layout files of the custom cells designed and few other parameters and generates a SRAM memory array.
 
 SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and access time of less than **2.5ns**. 
@@ -50,13 +50,13 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/PreCharge.png)
 
 
-## Pre Layout Input/Output Waveforms Of Indivdual Custom Cells
+# Pre Layout Input/Output Waveforms Of Indivdual Custom Cells
 
 ## 6T Memory cell
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#6t-memory-cell)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#6t-memory-cell-2)
 
 **Input Waveforms**
 
@@ -84,7 +84,7 @@ The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63**
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#sense-amplifier)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#sense-amplifier-2)
 
 **Input Waveforms**
 
@@ -102,7 +102,7 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#write-driver)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#write-driver-2)
 
 **Input Waveforms**
 
@@ -125,7 +125,7 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#tri-state-buffer)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#tri-state-buffer-2)
 
 **Input Waveforms**
 
@@ -143,7 +143,7 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#pre-charge-circuit)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#pre-charge-circuit-2)
 
 **Input Waveforms**
 
@@ -163,7 +163,7 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-integrated-circuit)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Input Waveforms Of Integrated Circuit
 
@@ -235,29 +235,39 @@ D Out Sense Amplifier
 
 ## Pre-Layout Simulations
 
-After Doing Steps [A](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy Paste below Commands for Pre-Layout simulations
-
 ## 6T Memory cell
+
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
 `ngspice 6TMemCell.cir.out`
 
 ## Sense Amplifier
 
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
+
 `ngspice SenseAmplifier.cir.out`
 
 ## Write Driver
+
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
 `ngspice WriteDriver.cir.out`
 
 ## Tri-State Buffer
 
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
+
 `ngspice Trigate.cir.out`
 
 ## Pre-Charge Circuit
 
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
+
 `ngspice PrechargeCell.cir.out`
 
 ## Integrated Circuit
+
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
 `ngspice IntegrationTest.cir`
 

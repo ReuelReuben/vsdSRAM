@@ -37,13 +37,38 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/PreCharge.png)
 
 
-Pre Layout Input/Output Waveforms Of Indivdual Custom Cells
-6T Memory cell
+## Pre Layout Input/Output Waveforms Of Indivdual Custom Cells
+
+**6T Memory cell**
+
+**Input Waveform**
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/wl.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/bl.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/blbar.png)
+
+**Output Waveform**
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/oq.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/oqbar.png)
+
 Butterfly Curve
+
+
 Sense Amplifier
+
+
 Write Driver
+
+
 Tri-State Buffer
+
+
 Pre-Charge Circuit
+
 
 Circuit Diagram Of Integrated Circuit
 

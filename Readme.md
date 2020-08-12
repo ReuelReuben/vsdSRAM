@@ -43,7 +43,7 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#6t-memory-cell)
 
-For Pre Layout Simulation please [click here]()
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
 
 **Input Waveforms**
 
@@ -71,7 +71,7 @@ The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63**
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#sense-amplifier)
 
-For Pre Layout Simulation please [click here]()
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
 
 **Input Waveforms**
 
@@ -89,7 +89,7 @@ For Pre Layout Simulation please [click here]()
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#write-driver)
 
-For Pre Layout Simulation please [click here]()
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
 
 **Input Waveforms**
 
@@ -112,7 +112,7 @@ For Pre Layout Simulation please [click here]()
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#tri-state-buffer)
 
-For Pre Layout Simulation please [click here]()
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
 
 **Input Waveforms**
 
@@ -130,7 +130,7 @@ For Pre Layout Simulation please [click here]()
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#pre-charge-circuit)
 
-For Pre Layout Simulation please [click here]()
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
 
 **Input Waveforms**
 
@@ -150,7 +150,7 @@ For Pre Layout Simulation please [click here]()
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-integrated-circuit)
 
-For Pre Layout Simulation please [click here]()
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
 
 ## Input Waveforms Of Integrated Circuit
 
@@ -222,7 +222,7 @@ D Out Sense Amplifier
 
 ## Pre-Layout Simulations
 
-After Doing Steps [A]() and [B]() directly Copy Paste below Commands for Pre-Layout simulations
+After Doing Steps [A](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy Paste below Commands for Pre-Layout simulations
 
 ## 6T Memory cell
 

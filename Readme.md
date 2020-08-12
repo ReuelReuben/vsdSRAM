@@ -63,24 +63,71 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63** 
 
-Sense Amplifier
+## Sense Amplifier
+
+**Input Waveforms**
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/SenseAmpCell/bl.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/SenseAmpCell/blbar.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/SenseAmpCell/se.png)
+
+**Output Waveforms**
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/SenseAmpCell/od.png)
+
+## Write Driver
+
+**Input Waveforms**
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/en.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/enbar.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/data.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/databar.png)
+
+**Output Waveforms**
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/obl.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/oblbar.png)
 
 
-Write Driver
+## Tri-State Buffer
 
+**Input Waveforms**
 
-Tri-State Buffer
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/TrigateCell/en.png)
 
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/TrigateCell/enbar.png)
 
-Pre-Charge Circuit
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/TrigateCell/in.png)
 
+**Output Waveforms**
 
-Circuit Diagram Of Integrated Circuit
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/TrigateCell/oout.png)
 
-Pre Layout Input/Output Waveforms Of Integrated Circuit
+## Pre-Charge Circuit
 
-Author
+**Input Waveforms**
 
-Acknowlegedgements
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/PreChargeCell/pclk.png)
 
-Contact Information
+**Output Waveforms**
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/PreChargeCell/obl.png)
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/PreChargeCell/oblbar.png)
+
+## Circuit Diagram Of Integrated Circuit
+
+## Pre Layout Input/Output Waveforms Of Integrated Circuit
+
+## Author
+
+## Acknowlegedgements
+
+## Contact Information

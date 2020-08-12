@@ -9,30 +9,30 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 - For more information on OpenRAM please [click here](https://github.com/VLSIDA/OpenRAM.git)
 
-## Basic Architectural Block Diagram
+# Basic Architectural Block Diagram
 ![](Documentation/BlockDiagram.png)
 
-## Circuit Diagram Of Indivdual Custom Cells
+# Circuit Diagram Of Indivdual Custom Cells
 
 **Note** -Below circuit diagrams have the test input's connected for reference with pre layout input/output waveforms. 
 
-**6T Memory cell**
+## 6T Memory cell
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/6TMemCell.png)
 
-**Sense Amplifier**
+## Sense Amplifier
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
 
-**Write Driver**
+## Write Driver
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/WriteDriver.png)
 
-**Tri-State Buffer**
+## Tri-State Buffer
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/Trigate.png)
 
-**Pre-Charge Circuit**
+## Pre-Charge Circuit
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/PreCharge.png)
 
@@ -40,6 +40,10 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 ## Pre Layout Input/Output Waveforms Of Indivdual Custom Cells
 
 ## 6T Memory cell
+
+For Reference Circuit Diagram please [click here]()
+
+For Pre Layout Simulation please [click here]()
 
 **Input Waveforms**
 
@@ -65,6 +69,10 @@ The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63**
 
 ## Sense Amplifier
 
+For Reference Circuit Diagram please [click here]()
+
+For Pre Layout Simulation please [click here]()
+
 **Input Waveforms**
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/SenseAmpCell/bl.png)
@@ -78,6 +86,10 @@ The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63**
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/SenseAmpCell/od.png)
 
 ## Write Driver
+
+For Reference Circuit Diagram please [click here]()
+
+For Pre Layout Simulation please [click here]()
 
 **Input Waveforms**
 
@@ -98,6 +110,10 @@ The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63**
 
 ## Tri-State Buffer
 
+For Reference Circuit Diagram please [click here]()
+
+For Pre Layout Simulation please [click here]()
+
 **Input Waveforms**
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/TrigateCell/en.png)
@@ -111,6 +127,10 @@ The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63**
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/TrigateCell/oout.png)
 
 ## Pre-Charge Circuit
+
+For Reference Circuit Diagram please [click here]()
+
+For Pre Layout Simulation please [click here]()
 
 **Input Waveforms**
 

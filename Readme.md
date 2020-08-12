@@ -1,5 +1,18 @@
 # SRAM
 
+## Table Of Contents
+- [SRAM Design](https://github.com/ReuelReuben/SRAM#sram-design)
+- [Basic Architectural Block Diagram](https://github.com/ReuelReuben/SRAM#basic-architectural-block-diagram)
+- [Circuit Diagram Of Indivdual Custom Cells](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-indivdual-custom-cells)
+- [Pre Layout Input/Output Waveforms Of Indivdual Custom Cells](https://github.com/ReuelReuben/SRAM#pre-layout-inputoutput-waveforms-of-indivdual-custom-cells)
+- [Circuit Diagram Of Integrated Circuit](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-integrated-circuit)
+- [Pre Layout Input/Output Waveforms Of Integrated Circuit](https://github.com/ReuelReuben/SRAM#pre-layout-inputoutput-waveforms-of-integrated-circuit)
+- [Installing And Simulating On NgSpice](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)
+- [Contributors](https://github.com/ReuelReuben/SRAM#contributors)
+- [Acknowlegedgements](https://github.com/ReuelReuben/SRAM#acknowlegedgements)
+- [Contact Information](https://github.com/ReuelReuben/SRAM#contact-information)
+
+
 ## SRAM Design
 This Project mainly focuses on the design of 4kB SRAM memory using opensource memory compiler **OpenRAM**. For the design of custom memory array, memory compiler takes in SPICE netlists, Layout files of the custom cells designed and few other parameters and generates a SRAM memory array.
 

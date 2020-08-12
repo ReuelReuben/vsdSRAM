@@ -152,7 +152,7 @@ For Reference Circuit Diagram please [click here]()
 
 For Pre Layout Simulation please [click here]()
 
-**Input Waveforms**
+## Input Waveforms Of Integrated Circuit
 
 Wordline in 6T Memory Cell
 
@@ -174,15 +174,25 @@ Sense Amplifier Enable
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/se.png)
 
-**Output Waveforms**
+## Output Waveforms Of Integrated Circuit
+
+BL 6T Memory Cell
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/obl.png)
 
+BLBAR 6T Memory Cell
+
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/oblbar.png)
+
+Q 6T Memory Cell
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/oq.png)
 
+QBAR 6T Memory Cell
+
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/oqbar.png)
+
+D Out Sense Amplifier
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/od.png)
 

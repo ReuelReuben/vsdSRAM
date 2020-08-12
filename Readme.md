@@ -39,9 +39,9 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 ## Pre Layout Input/Output Waveforms Of Indivdual Custom Cells
 
-**6T Memory cell**
+## 6T Memory cell
 
-**Input Waveform**
+**Input Waveforms**
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/wl.png)
 
@@ -49,14 +49,19 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/blbar.png)
 
-**Output Waveform**
+**Output Waveforms**
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/oq.png)
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/oqbar.png)
 
-Butterfly Curve
+**Note**-The Noise in above output waveforms will be reduced by parasitic capacitance. 
 
+**Butterfly Curve**
+
+![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/Screenshot%20from%202020-08-02%2018-01-50.png)
+
+The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63** 
 
 Sense Amplifier
 

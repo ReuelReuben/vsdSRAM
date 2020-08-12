@@ -148,8 +148,19 @@ For Pre Layout Simulation please [click here]()
 
 ## Pre Layout Input/Output Waveforms Of Integrated Circuit
 
-## Author
+## Contributors
+
+- Reuel Reuben
+- Kunal Ghosh
+- Philipp Gühring
 
 ## Acknowlegedgements
 
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Philipp Gühring, Software Architect, LibreSilicon Assocation
+
 ## Contact Information
+
+Reuel Reuben, Undergraduate Student, BVPCOE reuel992000@gmail.com
+Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at

@@ -124,6 +124,8 @@ The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63**
 
 ## Circuit Diagram Of Integrated Circuit
 
+![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/IntegratedCircuit.png)
+
 ## Pre Layout Input/Output Waveforms Of Integrated Circuit
 
 ## Author

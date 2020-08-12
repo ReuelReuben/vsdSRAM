@@ -5,7 +5,7 @@ This Project mainly focuses on the design of 4kB SRAM memory using opensource me
 
 SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and access time of less than **2.5ns**. 
  
-- For a better understanding of working, implementation and applications of SRAM please [click here]()
+- For a better understanding of working, implementation and applications of SRAM please [click here](https://github.com/ReuelReuben/SRAM/blob/master/Documentation/SRAM.docx)
 
 - For more information on OpenRAM please [click here](https://github.com/VLSIDA/OpenRAM.git)
 

@@ -12,6 +12,7 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 - For more information on OpenRAM please [click here](https://github.com/VLSIDA/OpenRAM.git)
 
 ## Basic Architectural Block Diagram
+![](Documentation/BlockDiagram.png)
 
 Circuit Diagram Of Indivdual Custom Cells
 6T Memory cell

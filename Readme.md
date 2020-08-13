@@ -78,6 +78,8 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/Screenshot%20from%202020-08-02%2018-01-50.png)
 
+For Simulation please [click here]()
+
 The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63** 
 
 ## Sense Amplifier
@@ -270,6 +272,13 @@ After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice)
 After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
 `ngspice IntegrationTest.cir`
+
+## ButterFly Curve
+
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
+
+`ngspice BFcurve.cir.out`
+
 
 # Contributors
 

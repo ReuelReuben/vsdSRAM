@@ -78,9 +78,11 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/Screenshot%20from%202020-08-02%2018-01-50.png)
 
-For Simulation please [click here]()
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
 
 The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63** 
+
+It can be extracted by nesting the largest possible square in the two voltage transfer curves (VTC) of the involved CMOS inverters. The SNM is defined as the side-length of the square.
 
 ## Sense Amplifier
 

@@ -3,7 +3,7 @@
 ## Table Of Contents
 - [SRAM Design](https://github.com/ReuelReuben/SRAM#sram-design)
 - [Basic Architectural Block Diagram](https://github.com/ReuelReuben/SRAM#basic-architectural-block-diagram)
-- [Circuit Diagram Of Indivdual Custom Cells](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-indivdual-custom-cells)
+- [Circuit Diagram Of Individual Custom Cells](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-individual-custom-cells)
 - [Pre Layout Input/Output Waveforms Of Indivdual Custom Cells](https://github.com/ReuelReuben/SRAM#pre-layout-inputoutput-waveforms-of-indivdual-custom-cells)
 - [Circuit Diagram Of Integrated Circuit](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-integrated-circuit)
 - [Pre Layout Input/Output Waveforms Of Integrated Circuit](https://github.com/ReuelReuben/SRAM#pre-layout-inputoutput-waveforms-of-integrated-circuit)
@@ -25,7 +25,7 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 # Basic Architectural Block Diagram
 ![](Documentation/BlockDiagram.png)
 
-# Circuit Diagram Of Indivdual Custom Cells
+# Circuit Diagram Of Individual Custom Cells
 
 **Note** -Below circuit diagrams have the test input's connected for reference with pre layout input/output waveforms. 
 
@@ -50,7 +50,7 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/PreCharge.png)
 
 
-# Pre Layout Input/Output Waveforms Of Indivdual Custom Cells
+# Pre Layout Input/Output Waveforms Of Individual Custom Cells
 
 ## 6T Memory cell
 

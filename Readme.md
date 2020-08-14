@@ -4,7 +4,7 @@
 - [SRAM Design](https://github.com/ReuelReuben/SRAM#sram-design)
 - [Basic Architectural Block Diagram](https://github.com/ReuelReuben/SRAM#basic-architectural-block-diagram)
 - [Circuit Diagram Of Individual Custom Cells](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-individual-custom-cells)
-- [Pre Layout Input/Output Waveforms Of Indivdual Custom Cells](https://github.com/ReuelReuben/SRAM#pre-layout-inputoutput-waveforms-of-indivdual-custom-cells)
+- [Pre Layout Input/Output Waveforms Of Individual Custom Cells](https://github.com/ReuelReuben/SRAM#pre-layout-inputoutput-waveforms-of-individual-custom-cells)
 - [Circuit Diagram Of Integrated Circuit](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-integrated-circuit)
 - [Pre Layout Input/Output Waveforms Of Integrated Circuit](https://github.com/ReuelReuben/SRAM#pre-layout-inputoutput-waveforms-of-integrated-circuit)
 - [Installing And Simulating On NgSpice](https://github.com/ReuelReuben/SRAM#installing-and-simulating-on-ngspice)

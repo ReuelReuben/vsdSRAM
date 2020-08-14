@@ -1,7 +1,7 @@
 .include osu018p.lib
 .include osu018n.lib
-m3 vdd q qbar vdd pfet W=0.15u L=0.18u M=1
-m6 q qbar vdd vdd pfet W=0.15u L=0.18u M=1
+m3 vdd q qbar vdd pfet W=0.36u L=0.18u M=1
+m6 q qbar vdd vdd pfet W=0.36u L=0.18u M=1
 m2 qbar q gnd gnd nfet W=0.72u L=0.18u M=1
 m7 gnd qbar q gnd nfet W=0.72u L=0.18u M=1
 m8 blbar wl qbar gnd nfet W=0.36u L=0.18u M=1
@@ -33,10 +33,10 @@ m34 net-_m2-pad3_ se gnd gnd nfet W=0.9u L=0.18u M=1
 v3 vdd gnd  dc 1.8V
 v2 wl gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 100ns)
 v11 net-_m1-pad3_ gnd  dc 1.8V
-v12  pclk gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 100ns)
+v12  pclk gnd pulse(1.8V 1.8V 0ns 1ns 1ns 50ns 100ns)
 v24 net-_m4-pad1_ gnd  dc 1.8V
 v23 net-_m3-pad1_ gnd  dc 1.8V
-v21  data gnd pulse(1.8V 1.8V 0ns 1ns 1ns 50ns 500ns)
+v21  data gnd pulse(0V 0V 0ns 1ns 1ns 50ns 500ns)
 v22  en gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 500ns)
 v25 net-_m7-pad1_ gnd  dc 1.8V
 v33 vdd1 gnd  dc 1.8V

@@ -1,0 +1,24 @@
+.include osu018p.lib
+.include osu018n.lib
+m1 net-_m1-pad1_ se bl vdd pfet W=0.9u L=0.18u M=1
+m7 blbar se d vdd pfet W=0.9u L=0.18u M=1
+m3 d net-_m1-pad1_ vdd vdd pfet W=0.2u L=0.18u M=1
+m5 net-_m1-pad1_ d vdd vdd pfet W=0.2u L=0.18u M=1
+m2 d net-_m1-pad1_ net-_m2-pad3_ gnd nfet W=0.9u L=0.18u M=1
+m6 net-_m2-pad3_ d net-_m1-pad1_ gnd nfet W=0.9u L=0.18u M=1
+m4 net-_m2-pad3_ se gnd gnd nfet W=0.9u L=0.18u M=1
+v3 vdd gnd  dc 1.8V
+v2  bl gnd pulse(1.8V 1.8V 0ns 1ns 1ns 10ns 20ns)
+v1  se gnd pulse(0V 1.8V 5ns 1ns 1ns 20ns 40ns)
+v4  blbar gnd pulse(1.5V 1.5V 0ns 1ns 1ns 10ns 20ns)
+.tran 5e-12 200e-09 0e-09
+
+* Control Statements 
+.control
+run
+plot bl
+plot blbar
+plot se
+plot d
+.endc
+.end

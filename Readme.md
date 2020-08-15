@@ -171,11 +171,11 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 ## Input Waveforms Of Integrated Circuit
 
-![]()
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Waveforms/Input.png)
 
 ## Output Waveforms Of Integrated Circuit
 
-![]()
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Waveforms/Output.png)
 
 # Installing And Simulating On NgSpice
 

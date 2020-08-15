@@ -171,47 +171,11 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 ## Input Waveforms Of Integrated Circuit
 
-Wordline in 6T Memory Cell
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/wl.png)
-
-Pre-Charge Enable
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/pclk.png)
-
-Write Driver Data In
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/data.png)
-
-Write Driver Enable
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/en.png)
-
-Sense Amplifier Enable
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/se.png)
+![]()
 
 ## Output Waveforms Of Integrated Circuit
 
-BL 6T Memory Cell
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/obl.png)
-
-BLBAR 6T Memory Cell
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/oblbar.png)
-
-Q 6T Memory Cell
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/oq.png)
-
-QBAR 6T Memory Cell
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/oqbar.png)
-
-D Out Sense Amplifier
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/IntegratedCircuit/od.png)
+![]()
 
 # Installing And Simulating On NgSpice
 

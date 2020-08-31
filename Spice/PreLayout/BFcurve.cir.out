@@ -1,0 +1,15 @@
+.include osu018p.lib
+.include osu018n.lib
+m3 out in2 vdd vdd pfet W=0.2u L=0.18u M=1
+m2 out in2 gnd gnd nfet W=0.72u L=0.18u M=1
+m1 in2 vdd in1 gnd nfet W=0.36u L=0.18u M=1
+v2 vdd gnd  dc 1.8V
+v1 in1 gnd  dc 1.8V
+.dc v1 0e-00 1.8e-00 0.01e-00
+
+* Control Statements 
+.control
+run
+plot v(in1) vs v(out) v(out) vs v(in1)
+.endc
+.end

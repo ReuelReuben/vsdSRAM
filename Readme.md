@@ -25,29 +25,71 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 # Basic Architectural Block Diagram
 ![](Documentation/BlockDiagram.png)
 
-# Circuit Diagram Of Individual Custom Cells
+# Pre-Layout
 
-**Note** -Below circuit diagrams have the test input's connected for reference with pre layout input/output waveforms. 
+**Note** -Below circuit diagrams have the test input's connected for Simulations. 
 
 ## 6T Memory cell
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/6TMemCell.png)
+**Circuit Diagram**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/6TMemCell.png)
+
+**Simulation**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/6TMemCell/6TCellPrelayout.png)
+
+**Butterfly Curve**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/6TMemCell/Screenshot%20from%202020-08-02%2018-01-50.png)
 
 ## Sense Amplifier
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
+**Circuit Diagram**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
+
+**Simulation #1 **
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/SenseAmpCell/SenseAmpPreLayout1.png)
+
+**Simulation #2 **
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/SenseAmpCell/SenseAmpPreLayout2.png)
 
 ## Write Driver
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/WriteDriver.png)
+**Circuit Diagram**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/WriteDriver.png)
+
+**Simulation**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/WriteDriverCell/WriteDrivePreLayout.png)
 
 ## Tri-State Buffer
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/Trigate.png)
+**Circuit Diagram**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/Trigate.png)
+
+**Simulation #1 **
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/TrigateCell/TrigateBufPreLayout1.png)
+
+**Simulation #2 **
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/TrigateCell/TrigateBufPreLayout2.png)
 
 ## Pre-Charge Circuit
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/PreCharge.png)
+**Circuit Diagram**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/PreCharge.png)
+
+**Simulation**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/PreChargeCell/PrechargePreLayout.png)
 
 
 # Pre Layout Input/Output Waveforms Of Individual Custom Cells

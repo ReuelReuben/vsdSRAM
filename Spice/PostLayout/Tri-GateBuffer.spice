@@ -1,0 +1,51 @@
+* SPICE3 file created from Tri-GateBuffer.ext - technology: scmos
+
+.include osu018.lib
+.option scale=0.1u
+
+M1000 out a_n8_n4# vdd vdd pfet w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1001 a_n1_n4# enbar a_n8_n4# vdd pfet w=8 l=2
++  ad=80 pd=52 as=40 ps=26
+M1002 a_n1_16# en a_n8_n4# gnd nfet w=4 l=2
++  ad=40 pd=36 as=20 ps=18
+M1003 vdd in a_n1_n4# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 gnd in a_n1_16# gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1005 out a_n8_n4# gnd gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+C0 a_n8_n4# a_n1_n4# 0.08fF
+C1 en enbar 0.09fF
+C2 a_n1_16# en 0.04fF
+C3 in vdd 0.27fF
+C4 out vdd 0.12fF
+C5 en a_n8_n4# 0.13fF
+C6 enbar vdd 0.10fF
+C7 en a_n1_n4# 0.09fF
+C8 vdd a_n8_n4# 0.24fF
+C9 out a_n8_n4# 0.05fF
+C10 vdd a_n1_n4# 0.12fF
+C11 a_n1_16# a_n8_n4# 0.04fF
+C12 enbar a_n1_n4# 0.04fF
+C13 en in 0.31fF
+C14 en vdd 0.06fF
+C15 enbar gnd 0.05fF
+C16 a_n1_16# gnd 0.03fF
+C17 in gnd 0.14fF
+C18 en gnd 0.11fF
+C19 out gnd 0.03fF
+C20 a_n8_n4# gnd 0.19fF
+C21 vdd gnd 1.12fF
+v4 enbar gnd  dc 1.8V
+v3 en gnd  dc 0V
+v2 vdd gnd  dc 1.8V
+v1  in gnd pulse(0V 1.8V 0ns 1ns 1ns 30ns 60ns)
+.tran 5e-12 200e-09 0e-09
+
+* Control Statements 
+.control
+run
+plot en enbar-2 in-4 out-6
+.endc
+.end

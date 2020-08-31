@@ -1,0 +1,49 @@
+* SPICE3 file created from S6TMemCell.ext - technology: scmos
+
+.include osu018.lib
+.option scale=0.1u
+
+M1000 qbar wl blbar gnd nfet w=4 l=2
++  ad=67 pd=40 as=22 ps=20
+M1001 gnd q qbar gnd nfet w=7 l=2
++  ad=134 pd=68 as=0 ps=0
+M1002 q qbar vdd vdd pfet w=4 l=2
++  ad=20 pd=18 as=64 ps=48
+M1003 q qbar gnd gnd nfet w=7 l=2
++  ad=67 pd=40 as=0 ps=0
+M1004 vdd q qbar vdd pfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1005 q wl bl gnd nfet w=4 l=2
++  ad=0 pd=0 as=22 ps=20
+C0 q qbar 0.21fF
+C1 wl blbar 0.12fF
+C2 bl wl 0.12fF
+C3 vdd blbar 0.04fF
+C4 vdd bl 0.04fF
+C5 wl qbar 0.05fF
+C6 vdd qbar 0.26fF
+C7 q wl 0.05fF
+C8 bl blbar 0.04fF
+C9 vdd q 0.12fF
+C10 qbar blbar 0.02fF
+C11 bl qbar 0.02fF
+C12 q blbar 0.01fF
+C13 q bl 0.00fF
+C14 blbar gnd 0.06fF
+C15 bl gnd 0.05fF
+C16 wl gnd 0.65fF
+C17 q gnd 0.23fF
+C18 qbar gnd 0.12fF
+C19 vdd gnd 0.95fF
+v3 vdd gnd  dc 1.8V
+v2   wl gnd pulse(1.8V 1.8V 0ns 1ns 1ns 5ns 10ns)
+v1   bl gnd pulse(0V 1.8V 0ns 1ns 1ns 5ns 10ns)
+v4   blbar gnd pulse(1.8V 0V 0ns 1ns 1ns 5ns 10ns)
+.tran 1e-09 20e-09 0e-00
+
+* Control Statements 
+.control
+run
+plot wl bl-2 blbar-4 q-6 qbar-8 
+.endc
+.end

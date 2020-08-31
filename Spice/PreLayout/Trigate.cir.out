@@ -1,0 +1,20 @@
+.include osu018.lib
+m3 net-_m3-pad1_ in net-_m3-pad3_ net-_m3-pad3_ pfet W=0.8u L=0.18u M=1
+m4 outbar enbar net-_m3-pad1_ net-_m3-pad3_ pfet W=0.8u L=0.18u M=1
+m1 outbar en net-_m1-pad3_ gnd nfet W=0.36u L=0.18u M=1
+m2 net-_m1-pad3_ in gnd gnd nfet W=0.36u L=0.18u M=1
+v4 net-_m3-pad3_ gnd  dc 1.8V
+v2 enbar gnd  dc 1.8V
+v3 en gnd  dc 0V
+m6 out outbar net-_m6-pad3_ net-_m6-pad3_ pfet W=0.8u L=0.18u M=1
+m5 out outbar gnd gnd nfet W=0.36u L=0.18u M=1
+v5 net-_m6-pad3_ gnd  dc 1.8V
+v1  in gnd pulse(0V 1.8V 0ns 1ns 1ns 30ns 60ns)
+.tran 5e-12 200e-09 0e-09
+
+* Control Statements 
+.control
+run
+plot en enbar-2 in-4 out-6
+.endc
+.end

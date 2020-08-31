@@ -1,0 +1,75 @@
+* SPICE3 file created from WriteDriver.ext - technology: scmos
+
+.include osu018.lib
+.option scale=0.1u
+
+M1000 a_0_59# enbar blbar vdd pfet w=8 l=2
++  ad=80 pd=52 as=40 ps=26
+M1001 gnd en enbar gnd nfet w=4 l=2
++  ad=80 pd=72 as=20 ps=18
+M1002 databar data vdd vdd pfet w=8 l=2
++  ad=40 pd=26 as=160 ps=104
+M1003 gnd databar a_0_43# gnd nfet w=4 l=2
++  ad=0 pd=0 as=40 ps=36
+M1004 a_0_43# en bl gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1005 gnd data a_0_79# gnd nfet w=4 l=2
++  ad=0 pd=0 as=40 ps=36
+M1006 vdd databar a_0_23# vdd pfet w=8 l=2
++  ad=0 pd=0 as=80 ps=52
+M1007 databar data gnd gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1008 a_0_79# en blbar gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1009 vdd en enbar vdd pfet w=8 l=2
++  ad=0 pd=0 as=40 ps=26
+M1010 a_0_23# enbar bl vdd pfet w=8 l=2
++  ad=0 pd=0 as=40 ps=26
+M1011 vdd data a_0_59# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 databar vdd 0.45fF
+C1 bl enbar 0.14fF
+C2 a_0_43# bl 0.04fF
+C3 en enbar 0.49fF
+C4 a_0_43# en 0.08fF
+C5 a_0_23# data 0.04fF
+C6 data a_0_59# 0.15fF
+C7 blbar a_0_59# 0.08fF
+C8 a_0_23# bl 0.08fF
+C9 enbar vdd 0.37fF
+C10 data en 1.30fF
+C11 en blbar 0.05fF
+C12 a_0_23# en 0.10fF
+C13 en a_0_59# 0.10fF
+C14 data a_0_79# 0.05fF
+C15 bl en 0.05fF
+C16 a_0_79# blbar 0.04fF
+C17 data vdd 0.40fF
+C18 blbar vdd 0.04fF
+C19 en a_0_79# 0.05fF
+C20 a_0_23# vdd 0.13fF
+C21 a_0_59# vdd 0.13fF
+C22 data databar 0.36fF
+C23 bl vdd 0.04fF
+C24 en vdd 0.34fF
+C25 enbar blbar 0.03fF
+C26 a_0_43# data 0.08fF
+C27 a_0_43# gnd 0.04fF
+C28 bl gnd 0.03fF
+C29 databar gnd 0.22fF
+C30 enbar gnd 0.20fF
+C31 a_0_79# gnd 0.04fF
+C32 data gnd 0.15fF
+C33 en gnd 0.22fF
+C34 vdd gnd 2.39fF
+v3  vdd gnd  dc 1.8V
+v1  data gnd pulse(0V 1.8V 0ns 1ns 1ns 20ns 40ns)
+v2  en gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 100ns)
+.tran 10e-12 300e-09 0e-09
+
+* Control Statements 
+.control
+run
+plot data databar-2 en-4 enbar-6 bl-8 blbar-10
+.endc
+.end

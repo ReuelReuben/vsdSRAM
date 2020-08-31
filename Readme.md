@@ -180,35 +180,37 @@ For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SR
 
 # Integrated Circuit
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/IntegratedCircuit.png)
+## Circuit Diagram
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/IntegratedCircuit.png)
 
 # Pre-Layout Input/Output Waveforms Of Integrated Circuit
 
-For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-integrated-circuit)
-
 For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Input Waveforms Of Integrated Circuit
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Waveforms/Input.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/IntegratedCircuit/IntegrationTestPreLayoutInput.png)
 
 ## Output Waveforms Of Integrated Circuit
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Waveforms/Output.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/IntegratedCircuit/IntegrationTestPreLayoutoutput.png)
+
+# Layout
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Layouts/IntegratedCircuit.png)
 
 # Post-Layout Input/Output Waveforms Of Integrated Circuit
 
-For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-integrated-circuit)
-
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Input Waveforms Of Integrated Circuit
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Waveforms/Input.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/IntegratedCircuit/IntegrationTestPostLayoutInput.png)
 
 ## Output Waveforms Of Integrated Circuit
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Waveforms/Output.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/IntegratedCircuit/IntegrationTestPostLayoutoutput.png)
 
 # Installing And Simulating On NgSpice
 

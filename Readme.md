@@ -293,37 +293,37 @@ Change Directory to PostLayout
 
 ## 6T Memory cell
 
-After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/vsdSRAM#b-go-to-post-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
 `ngspice S6TMemCell.spice`
 
 ## Sense Amplifier
 
-After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/vsdSRAM#b-go-to-post-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
 `ngspice SenseAmplifier.spice`
 
 ## Write Driver
 
-After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/vsdSRAM#b-go-to-post-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
 `ngspice WriteDriver.spice`
 
 ## Tri-State Buffer
 
-After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/vsdSRAM#b-go-to-post-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
 `ngspice Tri-GateBuffer.spice`
 
 ## Pre-Charge Circuit
 
-After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/vsdSRAM#b-go-to-post-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
 `ngspice  Pre-Charge.spice `
 
 ## Integrated Circuit
 
-After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/vsdSRAM#b-go-to-post-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
 `ngspice IntegrationTest.spice `
 

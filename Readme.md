@@ -120,7 +120,7 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/6TMemCell/6TCellPostlayout.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Sense Amplifier
 
@@ -132,7 +132,7 @@ For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/SenseAmpCell/SenseAmpPostLayout1.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 **Simulation-2**
 
@@ -148,7 +148,7 @@ For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/WriteDriverCell/WriteDrivePostLayout.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Tri-State Buffer
 
@@ -160,7 +160,7 @@ For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/TrigateCell/TrigateBufPostLayout1.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 **Simulation-2**
 
@@ -176,7 +176,7 @@ For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/PreChargeCell/PrechargePostLayout.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 # Integrated Circuit
 

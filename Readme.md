@@ -287,7 +287,7 @@ Change Directory to PostLayout
 
 1. `cd`
 
-2. `cd ~/SRAM/Spice/PreLayout`
+2. `cd ~/SRAM/Spice/PostLayout`
 
 ## Post-Layout Simulations
 
@@ -295,43 +295,37 @@ Change Directory to PostLayout
 
 After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
-`ngspice 6TMemCell.cir.out`
+`ngspice S6TMemCell.spice`
 
 ## Sense Amplifier
 
 After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
-`ngspice SenseAmplifier.cir.out`
+`ngspice SenseAmplifier.spice`
 
 ## Write Driver
 
 After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
-`ngspice WriteDriver.cir.out`
+`ngspice WriteDriver.spice`
 
 ## Tri-State Buffer
 
 After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
-`ngspice Trigate.cir.out`
+`ngspice Tri-GateBuffer.spice`
 
 ## Pre-Charge Circuit
 
 After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
-`ngspice PrechargeCell.cir.out`
+`ngspice  Pre-Charge.spice `
 
 ## Integrated Circuit
 
 After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
 
-`ngspice IntegrationTest.cir`
-
-## ButterFly Curve
-
-After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/SRAM#b-go-to-pre-layout-simulations-directory) directly Copy below Command and paste in terminal for Pre-Layout simulations
-
-`ngspice BFcurve.cir.out`
+`ngspice IntegrationTest.spice `
 
 
 # Contributors

@@ -53,6 +53,8 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 ## 6T Memory cell
 
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/6TMem.png)
+
 **Circuit Diagram**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/6TMemCell.png)
@@ -75,6 +77,8 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 
 ## Sense Amplifier
 
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/SenseAmp.png)
+
 **Circuit Diagram**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
@@ -91,6 +95,8 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 
 ## Write Driver
 
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/WriteDriver.png)
+
 **Circuit Diagram**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/WriteDriver.png)
@@ -102,6 +108,8 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 **For Pre Layout Simulation please** [click here](https://github.com/ReuelReuben/vsdSRAM#write-driver-2)
 
 ## Tri-State Buffer
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/TriState.png)
 
 **Circuit Diagram**
 
@@ -118,6 +126,8 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/TrigateCell/TrigateBufPreLayout2.png)
 
 ## Pre-Charge Circuit
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/PreCharge.png)
 
 **Circuit Diagram**
 

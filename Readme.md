@@ -61,6 +61,8 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/SenseAmpCell/SenseAmpPreLayout1.png)
 
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+
 **Simulation-2**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/SenseAmpCell/SenseAmpPreLayout2.png)
@@ -75,6 +77,8 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/WriteDriverCell/WriteDrivePreLayout.png)
 
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+
 ## Tri-State Buffer
 
 **Circuit Diagram**
@@ -84,6 +88,8 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 **Simulation-1**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/TrigateCell/TrigateBufPreLayout1.png)
+
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
 
 **Simulation-2**
 
@@ -98,6 +104,8 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 **Simulation**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/PreChargeCell/PrechargePreLayout.png)
+
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
 
 
 # Pre Layout Input/Output Waveforms Of Individual Custom Cells

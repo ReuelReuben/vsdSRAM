@@ -213,7 +213,7 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/PreChargeCell/PrechargePostLayout.png)
 
-**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/vsdSRAM#positive-edge-d-flip-flop-1)
 
 
 
@@ -227,7 +227,7 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 
 # Pre-Layout Input/Output Waveforms Of Integrated Circuit
 
-**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Pre Layout Simulation please** [click here](https://github.com/ReuelReuben/vsdSRAM#integrated-circuit-1)
 
 ## Input Waveforms Of Integrated Circuit
 
@@ -243,7 +243,7 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 
 # Post-Layout Input/Output Waveforms Of Integrated Circuit
 
-**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/vsdSRAM#integrated-circuit-2)
 
 ## Input Waveforms Of Integrated Circuit
 

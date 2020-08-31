@@ -1,0 +1,163 @@
+* SPICE3 file created from IntegrationTest.ext - technology: scmos
+
+.include osu018.lib
+.option scale=0.1u
+
+M1000 d se blbar vdd pfet w=8 l=2
++  ad=60 pd=44 as=120 ps=88
+M1001 SenseAmplifier_0a_n6_n18# se gnd gnd nfet w=8 l=2
++  ad=120 pd=78 as=254 ps=166
+M1002 vdd d SenseAmplifier_0a_n6_18# vdd pfet w=4 l=2
++  ad=40 pd=36 as=60 ps=44
+M1003 d SenseAmplifier_0a_n6_18# vdd vdd pfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 d SenseAmplifier_0a_n6_18# SenseAmplifier_0a_n6_n18# gnd nfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1005 SenseAmplifier_0a_n6_n18# d SenseAmplifier_0a_n6_18# gnd nfet w=8 l=2
++  ad=0 pd=0 as=40 ps=26
+M1006 bl se SenseAmplifier_0a_n6_18# vdd pfet w=8 l=2
++  ad=120 pd=88 as=0 ps=0
+M1007 WriteDriver_0a_0_59# enbar blbar vdd pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1008 gnd en enbar gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1009 databar data vdd vdd pfet w=8 l=2
++  ad=40 pd=26 as=160 ps=104
+M1010 gnd databar WriteDriver_0a_0_43# gnd nfet w=4 l=2
++  ad=0 pd=0 as=40 ps=36
+M1011 WriteDriver_0a_0_43# en bl gnd nfet w=4 l=2
++  ad=0 pd=0 as=42 ps=38
+M1012 gnd data WriteDriver_0a_0_79# gnd nfet w=4 l=2
++  ad=0 pd=0 as=40 ps=36
+M1013 vdd databar WriteDriver_0a_0_23# vdd pfet w=8 l=2
++  ad=0 pd=0 as=80 ps=52
+M1014 databar data gnd gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1015 WriteDriver_0a_0_79# en blbar gnd nfet w=4 l=2
++  ad=0 pd=0 as=42 ps=38
+M1016 vdd en enbar vdd pfet w=8 l=2
++  ad=0 pd=0 as=40 ps=26
+M1017 WriteDriver_0a_0_23# enbar bl vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 vdd data WriteDriver_0a_0_59# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1019 vdd pclk blbar Pre-Charge_0w_n22_n11# pfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1020 blbar pclk bl Pre-Charge_0w_n22_n11# pfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 vdd pclk bl Pre-Charge_0w_n22_n11# pfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 qbar1 wl blbar gnd nfet w=4 l=2
++  ad=67 pd=40 as=0 ps=0
+M1023 gnd q qbar1 gnd nfet w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 q qbar1 vdd vdd pfet w=4 l=2
++  ad=20 pd=18 as=64 ps=48
+M1025 q qbar1 gnd gnd nfet w=7 l=2
++  ad=67 pd=40 as=0 ps=0
+M1026 vdd q qbar1 vdd pfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1027 q wl bl gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 vdd en 0.34fF
+C1 vdd bl 0.05fF
+C2 blbar enbar 0.19fF
+C3 data WriteDriver_0a_0_59# 0.15fF
+C4 se SenseAmplifier_0a_n6_n18# 0.20fF
+C5 SenseAmplifier_0a_n6_18# d 0.33fF
+C6 qbar1 wl 0.05fF
+C7 vdd blbar 0.12fF
+C8 SenseAmplifier_0a_n6_18# bl 0.06fF
+C9 blbar q 0.01fF
+C10 en enbar 0.49fF
+C11 data WriteDriver_0a_0_79# 0.05fF
+C12 vdd WriteDriver_0a_0_59# 0.13fF
+C13 enbar bl 0.15fF
+C14 vdd d 0.55fF
+C15 vdd q 0.12fF
+C16 d blbar 0.06fF
+C17 vdd bl 0.12fF
+C18 blbar vdd 0.08fF
+C19 bl q 0.00fF
+C20 pclk vdd 0.12fF
+C21 en blbar 0.05fF
+C22 blbar bl 0.25fF
+C23 en WriteDriver_0a_0_23# 0.10fF
+C24 data WriteDriver_0a_0_43# 0.08fF
+C25 bl WriteDriver_0a_0_23# 0.08fF
+C26 se SenseAmplifier_0a_n6_18# 0.18fF
+C27 bl vdd 0.08fF
+C28 Pre-Charge_0w_n22_n11# pclk 0.34fF
+C29 blbar vdd 0.04fF
+C30 vdd data 0.40fF
+C31 data databar 0.36fF
+C32 blbar WriteDriver_0a_0_59# 0.08fF
+C33 en bl 0.05fF
+C34 vdd se 0.28fF
+C35 SenseAmplifier_0a_n6_18# SenseAmplifier_0a_n6_n18# 0.16fF
+C36 q wl 0.05fF
+C37 se blbar 0.05fF
+C38 blbar wl 0.12fF
+C39 blbar Pre-Charge_0w_n22_n11# 0.11fF
+C40 bl vdd 0.04fF
+C41 en WriteDriver_0a_0_59# 0.10fF
+C42 vdd databar 0.45fF
+C43 blbar WriteDriver_0a_0_79# 0.04fF
+C44 se d 0.16fF
+C45 qbar1 q 0.21fF
+C46 se bl 0.05fF
+C47 blbar qbar1 0.02fF
+C48 bl wl 0.12fF
+C49 bl Pre-Charge_0w_n22_n11# 0.09fF
+C50 vdd enbar 0.36fF
+C51 en WriteDriver_0a_0_79# 0.05fF
+C52 data WriteDriver_0a_0_23# 0.04fF
+C53 d SenseAmplifier_0a_n6_n18# 0.16fF
+C54 vdd qbar1 0.26fF
+C55 bl qbar1 0.02fF
+C56 Pre-Charge_0w_n22_n11# vdd 0.06fF
+C57 en data 1.30fF
+C58 vdd blbar 0.05fF
+C59 vdd WriteDriver_0a_0_23# 0.13fF
+C60 en WriteDriver_0a_0_43# 0.08fF
+C61 bl WriteDriver_0a_0_43# 0.04fF
+C62 vdd SenseAmplifier_0a_n6_18# 0.66fF
+C63 wl gnd 0.65fF
+C64 q gnd 0.23fF
+C65 qbar1 gnd 0.12fF
+C66 vdd gnd 0.95fF
+C67 vdd gnd 0.01fF
+C68 pclk gnd 0.00fF
+C69 Pre-Charge_0w_n22_n11# gnd 1.01fF
+C70 WriteDriver_0a_0_43# gnd 0.04fF
+C71 bl gnd 0.37fF
+C72 databar gnd 0.22fF
+C73 enbar gnd 0.20fF
+C74 WriteDriver_0a_0_79# gnd 0.08fF
+C75 blbar gnd 0.41fF
+C76 data gnd 0.17fF
+C77 en gnd 0.24fF
+C78 vdd gnd 2.39fF
+C79 SenseAmplifier_0a_n6_n18# gnd 0.12fF
+C80 d gnd 0.25fF
+C81 SenseAmplifier_0a_n6_18# gnd 0.15fF
+C82 se gnd 0.19fF
+C83 vdd gnd 1.30fF
+v3 vdd gnd dc 1.8V
+v2 wl gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 100ns)
+v1 pclk gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 100ns)
+v4 data gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 500ns)
+v5 en gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 500ns)
+v6 se gnd pulse(0V 1.8V 0ns 1ns 1ns 50ns 100ns)
+.tran 10e-12 500e-09 1e-09
+
+
+.control
+run
+plot wl pclk-2 data-4 en-6 se-8
+plot bl blbar-2 q-4 qbar1-6 d-8
+plot d
+plot bl
+plot blbar
+.endc
+.end

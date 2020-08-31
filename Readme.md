@@ -39,9 +39,17 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/6TMemCell/6TCellPrelayout.png)
 
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+
 **Butterfly Curve**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/6TMemCell/Screenshot%20from%202020-08-02%2018-01-50.png)
+
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+
+The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63** 
+
+It can be extracted by nesting the largest possible square in the two voltage transfer curves (VTC) of the involved CMOS inverters. The SNM is defined as the side-length of the square.
 
 ## Sense Amplifier
 
@@ -49,11 +57,11 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
 
-**Simulation -1 **
+**Simulation-1**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/SenseAmpCell/SenseAmpPreLayout1.png)
 
-**Simulation -2 **
+**Simulation-2**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/SenseAmpCell/SenseAmpPreLayout2.png)
 
@@ -73,11 +81,11 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/Trigate.png)
 
-**Simulation -1 **
+**Simulation-1**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/TrigateCell/TrigateBufPreLayout1.png)
 
-**Simulation -2 **
+**Simulation-2**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/TrigateCell/TrigateBufPreLayout2.png)
 

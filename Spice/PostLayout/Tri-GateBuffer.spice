@@ -37,8 +37,8 @@ C18 en gnd 0.11fF
 C19 out gnd 0.03fF
 C20 a_n8_n4# gnd 0.19fF
 C21 vdd gnd 1.12fF
-v4 enbar gnd  dc 1.8V
-v3 en gnd  dc 0V
+v4 enbar gnd  dc 0V
+v3 en gnd  dc 1.8V
 v2 vdd gnd  dc 1.8V
 v1  in gnd pulse(0V 1.8V 0ns 1ns 1ns 30ns 60ns)
 .tran 5e-12 200e-09 0e-09

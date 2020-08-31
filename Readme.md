@@ -39,7 +39,7 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/6TMemCell/6TCellPrelayout.png)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Pre Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 **Butterfly Curve**
 

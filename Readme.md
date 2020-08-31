@@ -108,114 +108,75 @@ For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly
 For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
 
 
-# Pre Layout Input/Output Waveforms Of Individual Custom Cells
+# Post-Layout
 
 ## 6T Memory cell
 
-For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#6t-memory-cell)
+**Layout**
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#6t-memory-cell-2)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Layouts/6TMemCell.png)
 
-**Input Waveforms**
+**Simulation**
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/wl.png)
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/bl.png)
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/blbar.png)
-
-**Output Waveforms**
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/oq.png)
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/oqbar.png)
-
-**Note**-The Noise in above output waveforms will be reduced by parasitic capacitance. 
-
-**Butterfly Curve**
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/6TMemCell/Screenshot%20from%202020-08-02%2018-01-50.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/6TMemCell/6TCellPostlayout.png)
 
 For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
 
-The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63** 
-
-It can be extracted by nesting the largest possible square in the two voltage transfer curves (VTC) of the involved CMOS inverters. The SNM is defined as the side-length of the square.
-
 ## Sense Amplifier
 
-For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#sense-amplifier)
+**Layout**
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#sense-amplifier-2)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Layouts/SenseAmplifier.png)
 
-**Input Waveforms**
+**Simulation-1**
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/SenseAmpCell/bl.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/SenseAmpCell/SenseAmpPostLayout1.png)
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/SenseAmpCell/blbar.png)
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/SenseAmpCell/se.png)
+**Simulation-2**
 
-**Output Waveforms**
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/SenseAmpCell/od.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/SenseAmpCell/SenseAmpPostLayout2.png)
 
 ## Write Driver
 
-For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#write-driver)
+**Layout**
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#write-driver-2)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Layouts/WriteDriver.png)
 
-**Input Waveforms**
+**Simulation**
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/en.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/WriteDriverCell/WriteDrivePostLayout.png)
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/enbar.png)
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/data.png)
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/databar.png)
-
-**Output Waveforms**
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/obl.png)
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/WriteDriverCell/oblbar.png)
-
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
 
 ## Tri-State Buffer
 
-For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#tri-state-buffer)
+**Layout**
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#tri-state-buffer-2)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Layouts/TriGateBuffer.png)
 
-**Input Waveforms**
+**Simulation-1**
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/TrigateCell/en.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/TrigateCell/TrigateBufPostLayout1.png)
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/TrigateCell/enbar.png)
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/TrigateCell/in.png)
+**Simulation-2**
 
-**Output Waveforms**
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/TrigateCell/oout.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/TrigateCell/TrigateBufPostLayout2.png)
 
 ## Pre-Charge Circuit
 
-For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#pre-charge-circuit)
+**Layout**
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#pre-charge-circuit-2)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Layouts/PreChargeCell.png)
 
-**Input Waveforms**
+**Simulation**
 
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/PreChargeCell/pclk.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/PreChargeCell/PrechargePostLayout.png)
 
-**Output Waveforms**
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/PreChargeCell/obl.png)
-
-![](https://github.com/ReuelReuben/SRAM/blob/master/Waveforms/PreChargeCell/oblbar.png)
+For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
 
 # Circuit Diagram Of Integrated Circuit
 

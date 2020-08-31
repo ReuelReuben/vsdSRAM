@@ -13,6 +13,9 @@
 - [Contact Information](https://github.com/ReuelReuben/SRAM#contact-information)
 
 
+
+
+
 # SRAM Design
 This Project mainly focuses on the design of 4kB SRAM memory using opensource memory compiler **OpenRAM**. For the design of custom memory array, memory compiler takes in SPICE netlists, Layout files of the custom cells designed and few other parameters and generates a SRAM memory array.
 
@@ -22,8 +25,17 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 - For more information on OpenRAM please [click here](https://github.com/VLSIDA/OpenRAM.git)
 
+
+
+
+
 # Basic Architectural Block Diagram
 ![](Documentation/BlockDiagram.png)
+
+
+
+
+
 
 # Pre-Layout
 
@@ -45,7 +57,7 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/6TMemCell/Screenshot%20from%202020-08-02%2018-01-50.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+**For Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63** 
 
@@ -61,7 +73,7 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/SenseAmpCell/SenseAmpPreLayout1.png)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Pre Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 **Simulation-2**
 
@@ -77,7 +89,7 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/WriteDriverCell/WriteDrivePreLayout.png)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Pre Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Tri-State Buffer
 
@@ -89,7 +101,7 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/TrigateCell/TrigateBufPreLayout1.png)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Pre Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 **Simulation-2**
 
@@ -105,7 +117,10 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/PreChargeCell/PrechargePreLayout.png)
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Pre Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+
+
+
 
 
 # Post-Layout
@@ -120,7 +135,7 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/6TMemCell/6TCellPostlayout.png)
 
-For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Sense Amplifier
 
@@ -132,7 +147,7 @@ For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SR
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/SenseAmpCell/SenseAmpPostLayout1.png)
 
-For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 **Simulation-2**
 
@@ -148,7 +163,7 @@ For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SR
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/WriteDriverCell/WriteDrivePostLayout.png)
 
-For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Tri-State Buffer
 
@@ -160,7 +175,7 @@ For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SR
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/TrigateCell/TrigateBufPostLayout1.png)
 
-For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 **Simulation-2**
 
@@ -176,7 +191,23 @@ For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SR
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/PreChargeCell/PrechargePostLayout.png)
 
-For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+
+## Positive Edge D Flip Flop
+
+**Layout**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Layouts/dff.png)
+
+**Simulation**
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/PreChargeCell/PrechargePostLayout.png)
+
+**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+
+
+
+
 
 # Integrated Circuit
 
@@ -186,7 +217,7 @@ For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SR
 
 # Pre-Layout Input/Output Waveforms Of Integrated Circuit
 
-For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Input Waveforms Of Integrated Circuit
 
@@ -202,7 +233,7 @@ For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRA
 
 # Post-Layout Input/Output Waveforms Of Integrated Circuit
 
-For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Input Waveforms Of Integrated Circuit
 
@@ -211,6 +242,11 @@ For Post Layout Simulation please [click here](https://github.com/ReuelReuben/SR
 ## Output Waveforms Of Integrated Circuit
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/IntegratedCircuit/IntegrationTestPostLayoutoutput.png)
+
+
+
+
+
 
 # Installing And Simulating On NgSpice
 

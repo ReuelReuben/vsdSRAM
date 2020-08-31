@@ -398,7 +398,7 @@ After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice)
 
 # Acknowlegedgements
 
-- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
 - Philipp Gühring, Software Architect, LibreSilicon Assocation
 
 # Contact Information

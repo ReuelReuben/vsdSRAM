@@ -39,7 +39,7 @@ SRAM Specs - Memory Size of **4kBytes** with operating voltage of **1.8V** and a
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/6TMemCell/6TCellPrelayout.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 **Butterfly Curve**
 
@@ -61,7 +61,7 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/SenseAmpCell/SenseAmpPreLayout1.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 **Simulation-2**
 
@@ -77,7 +77,7 @@ For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/WriteDriverCell/WriteDrivePreLayout.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 ## Tri-State Buffer
 
@@ -89,7 +89,7 @@ For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/TrigateCell/TrigateBufPreLayout1.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 **Simulation-2**
 
@@ -105,7 +105,7 @@ For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/PreChargeCell/PrechargePreLayout.png)
 
-For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
 
 
 # Post-Layout
@@ -178,11 +178,25 @@ For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly
 
 For Simulation please [click here](https://github.com/ReuelReuben/SRAM#butterfly-curve)
 
-# Circuit Diagram Of Integrated Circuit
+# Integrated Circuit
 
 ![](https://github.com/ReuelReuben/SRAM/blob/master/CircuitDiagram/IntegratedCircuit.png)
 
-# Pre Layout Input/Output Waveforms Of Integrated Circuit
+# Pre-Layout Input/Output Waveforms Of Integrated Circuit
+
+For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-integrated-circuit)
+
+For Pre Layout Simulation please [click here](https://github.com/ReuelReuben/SRAM#integrated-circuit)
+
+## Input Waveforms Of Integrated Circuit
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Waveforms/Input.png)
+
+## Output Waveforms Of Integrated Circuit
+
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Waveforms/Output.png)
+
+# Post-Layout Input/Output Waveforms Of Integrated Circuit
 
 For Reference Circuit Diagram please [click here](https://github.com/ReuelReuben/SRAM#circuit-diagram-of-integrated-circuit)
 

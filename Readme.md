@@ -373,6 +373,12 @@ After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice)
 
 `ngspice IntegrationTest.spice `
 
+## Positive Edge D Flip Flop
+
+After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice) and [B.](https://github.com/ReuelReuben/vsdSRAM#b-go-to-post-layout-simulations-directory) directly Copy below Command and paste in terminal for Post-Layout simulations
+
+`ngspice dff.spice  `
+
 
 # Contributors
 

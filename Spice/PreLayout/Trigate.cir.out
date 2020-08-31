@@ -4,8 +4,8 @@ m4 outbar enbar net-_m3-pad1_ net-_m3-pad3_ pfet W=0.8u L=0.18u M=1
 m1 outbar en net-_m1-pad3_ gnd nfet W=0.36u L=0.18u M=1
 m2 net-_m1-pad3_ in gnd gnd nfet W=0.36u L=0.18u M=1
 v4 net-_m3-pad3_ gnd  dc 1.8V
-v2 enbar gnd  dc 1.8V
-v3 en gnd  dc 0V
+v2 enbar gnd  dc 0V
+v3 en gnd  dc 1.8V
 m6 out outbar net-_m6-pad3_ net-_m6-pad3_ pfet W=0.8u L=0.18u M=1
 m5 out outbar gnd gnd nfet W=0.36u L=0.18u M=1
 v5 net-_m6-pad3_ gnd  dc 1.8V

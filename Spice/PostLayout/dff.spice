@@ -1,0 +1,90 @@
+* SPICE3 file created from dff.ext - technology: scmos
+
+.include osu018.lib
+.option scale=0.1u
+
+M1000 a_5_n69# clkbar a_n57_n96# w_n8_n59# pfet w=4 l=2
++  ad=40 pd=36 as=40 ps=36
+M1001 a_n57_n96# a_n117_n71# gnd gnd nfet w=4 l=2
++  ad=40 pd=36 as=80 ps=72
+M1002 a_n83_n57# clk a_n117_n71# gnd nfet w=4 l=2
++  ad=40 pd=36 as=40 ps=36
+M1003 a_5_n69# clk a_n57_n96# gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1004 a_n57_n96# a_n117_n71# vdd vdd pfet w=4 l=2
++  ad=0 pd=0 as=80 ps=72
+M1005 gnd q a_39_n55# gnd nfet w=4 l=2
++  ad=0 pd=0 as=40 ps=36
+M1006 a_n117_n71# clkbar d gnd nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+M1007 a_39_n55# clkbar a_5_n69# gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 a_n117_n71# clk d w_n130_n61# pfet w=4 l=2
++  ad=40 pd=36 as=20 ps=18
+M1009 a_39_n55# clk a_5_n69# w_26_n45# pfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1010 gnd a_n57_n96# a_n83_n57# gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 vdd q a_39_n55# vdd pfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 q a_5_n69# gnd gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1013 q a_5_n69# vdd vdd pfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1014 vdd a_n57_n96# a_n83_n57# vdd pfet w=4 l=2
++  ad=0 pd=0 as=40 ps=36
+M1015 a_n83_n57# clkbar a_n117_n71# w_n96_n47# pfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 clkbar w_n8_n59# 0.09fF
+C1 a_5_n69# a_39_n55# 0.21fF
+C2 w_26_n45# clk 0.09fF
+C3 a_n117_n71# a_n83_n57# 0.21fF
+C4 a_5_n69# a_n57_n96# 0.21fF
+C5 a_n57_n96# a_n117_n71# 0.05fF
+C6 a_n117_n71# w_n96_n47# 0.04fF
+C7 a_5_n69# q 0.05fF
+C8 a_5_n69# w_n8_n59# 0.04fF
+C9 d w_n130_n61# 0.04fF
+C10 a_n57_n96# a_n83_n57# 0.05fF
+C11 a_5_n69# w_26_n45# 0.04fF
+C12 a_n83_n57# w_n96_n47# 0.04fF
+C13 a_39_n55# q 0.05fF
+C14 clk w_n130_n61# 0.09fF
+C15 a_39_n55# w_26_n45# 0.04fF
+C16 a_5_n69# vdd 0.14fF
+C17 vdd a_n117_n71# 0.14fF
+C18 a_n57_n96# w_n8_n59# 0.07fF
+C19 a_39_n55# vdd 0.08fF
+C20 vdd a_n83_n57# 0.08fF
+C21 vdd a_n57_n96# 0.32fF
+C22 a_n117_n71# w_n130_n61# 0.04fF
+C23 vdd q 0.32fF
+C24 a_n117_n71# d 0.21fF
+C25 a_n57_n96# clkbar 0.01fF
+C26 clkbar w_n96_n47# 0.09fF
+C27 clkbar gnd 0.33fF
+C28 clk gnd 0.33fF
+C29 d gnd 0.05fF
+C30 a_39_n55# gnd 0.09fF
+C31 a_5_n69# gnd 0.44fF
+C32 a_n83_n57# gnd 0.09fF
+C33 a_n117_n71# gnd 0.44fF
+C34 q gnd 0.52fF
+C35 a_n57_n96# gnd 0.57fF
+C36 vdd gnd 1.11fF
+C37 w_26_n45# gnd 0.29fF
+C38 w_n8_n59# gnd 0.29fF
+C39 w_n96_n47# gnd 0.29fF
+C40 w_n130_n61# gnd 0.29fF
+v1 vdd gnd dc 1.8V
+v2 clk gnd pulse(0V 1.8V 0ns 60ps 60ps 5ns 10ns)
+v3 clkbar gnd pulse(1.8V 0V 0ns 60ps 60ps 5ns 10ns)
+v4 d gnd pulse(0V 1.8V 0ns 60ps 60ps 50ns 100ns)
+.tran 1e-09 90e-09 0e-00
+
+* Control Statements 
+.control
+run
+plot d clk-2 q-4 clkbar-6
+.endc
+.end

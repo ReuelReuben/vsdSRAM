@@ -109,7 +109,7 @@ It can be extracted by nesting the largest possible square in the two voltage tr
 
 ## Tri-State Buffer
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/TriState.png)
+![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/Screenshot%20(102).png)
 
 **Circuit Diagram**
 

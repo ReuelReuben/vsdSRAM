@@ -390,6 +390,12 @@ After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice)
 `ngspice dff.spice  `
 
 
+# Future Works
+
+- Porting the above designs to OpenRam Compiler and Compiling the SRAM.
+- Porting all the designs to sky130 technology node. 
+
+
 # Contributors
 
 - Reuel Reuben

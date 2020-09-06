@@ -393,7 +393,7 @@ After Doing Steps [A.](https://github.com/ReuelReuben/SRAM#a-installing-ngspice)
 
 # Future Works
 
-- Porting the above designs to OpenRam Compiler and Compiling the SRAM.
+- Implementing the above designs in OpenRam Compiler and Compiling the SRAM.
 - Porting all the designs to sky130 technology node. 
 
 
